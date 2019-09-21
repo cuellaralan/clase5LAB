@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+}
+h1,h2{
+    color: #000099;
+    font-family: 'lucida-sans';
+}
+p{
+    color:red;
+}
+
+p.negrita{
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.otraClase{
+    font-style: italic;
+}
+
+.boton{
+    background-color: greenyellow;
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    margin: 20px 0;
+    padding-left: 0px;
+    cursor: pointer;
+    border: none;
+}
+.boton:hover(){
+    background-color: rgb(85, 30, 30);
+}
+
+.botonOK{
+    background-color: green;
+}
+
+.botonError{
+    background-color: red;
+}
+
+.cuadro{
+    background-color: rgb(230, 223, 223); 
+    width: 50%;
+    padding: 20px;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 15px;
+    margin: 2px;
+    box-sizing: border-box;
+    font-family: Arial;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+
+  
+input[type=password] {
+    width: 80%;
+    padding: 12px 15px;
+    margin: 2px;
+    box-sizing: border-box;
+    font-family: Arial;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+
+#column{
+    background-color: rgb(43, 43, 182);
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    margin: 20px;
+    padding-left: 0px;
+    cursor: pointer;
+    border: none;
+}
+
+#tablaprueba{
+    background-color: rgb(42, 42, 231);
+    text-align: left;
+    width: 80%;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+th{
+    color: white;
+    background-color: rgb(42, 42, 231);
+}
+
+tr{
+    background-color: grey;
+   
+}
+
+
+tr:nth-child(even){
+    background-color: white;
+}

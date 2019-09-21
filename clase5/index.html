@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <var></var>
+    <script>
+        var http = new XMLHttpRequest();
+        http.onreadystatechange = function(){
+            console.log("llego respuesta!!!", http.readyState, http.status);
+            if(http.readyState == 4 && http.status == 200)
+            {
+                console.log("tenemos respuesta!!!",http.responseText);
+            }
+        }
+        http.open("GET", "http://localhost:3000/login");
+        http.send();
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
